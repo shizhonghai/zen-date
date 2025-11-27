@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { UserInput, PredictionResult } from "../types";
 
-const apiKey = process.env.API_KEY || 'AIzaSyBqql8FRA_6tj8Cy7iyv9nCUaXFazUZVCE';
+const apiKey = process.env.API_KEY;
 const ai = new GoogleGenAI({ apiKey });
 
 // Schema definition for the JSON response
